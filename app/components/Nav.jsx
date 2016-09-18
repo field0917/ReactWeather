@@ -25,9 +25,9 @@ var Nav = React.createClass({
         </div>
         <div className="top-bar-right">
           <form onSubmit={this.onSearch}>
-            <ul className="menu"> 
+            <ul className="menu">
               <li>
-                <input type="search" placeholder="Search weather"/>
+                <input type="search" placeholder="Search weather by city"/>
               </li>
               <li>
                 <input type="submit" className="button" value="Get Weather"/>
